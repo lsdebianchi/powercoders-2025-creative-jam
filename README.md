@@ -59,3 +59,5 @@ enregistrez le fichier, retournez dans le navigateur sur la page http://localhos
 Chaque fois que le code sur github est mis à jour, un système automatisé le placera sur une URL publique (si le système fonctionne encore).
 
 Pour visualizer la version LIVE du code, vous pouvez vous rendre à l'URL suivante :
+
+https://powercoders-2025-creative-jam.fly.dev/

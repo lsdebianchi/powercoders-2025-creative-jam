@@ -1,0 +1,36 @@
+/*
+This file is the CSS language.
+It allows to specify visual properties (size, color, font, ...) for
+the element in the page (for example, the element described in index.html).
+*/
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+}
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+canvas {
+  background-color: rgb(214, 214, 214);
+  width: calc(100vh - 60px) !important;
+  height: calc(100vh - 60px) !important;
+  border: 1px solid gray;
+}
+p {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 5px;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+}

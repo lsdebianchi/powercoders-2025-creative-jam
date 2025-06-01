@@ -12,3 +12,4 @@ function draw_2() {
 
 // N’oubliez pas d’utiliser la version numérotée des fonctions communes :
 // width2 height2 mouseX2 mouseY2 background2()
+//

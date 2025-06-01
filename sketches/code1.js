@@ -1,4 +1,4 @@
-// Variables globales ici.
+// Variables Globales ici.
 function setup_1() {
   // Ceci s’exécute une fois.
 }

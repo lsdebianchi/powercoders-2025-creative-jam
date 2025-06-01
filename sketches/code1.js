@@ -5,8 +5,9 @@ function setup_1() {
 
 function draw_1() {
   // Ceci s’exécute à chaque frame.
-  background1(0);
-  circle(width1 / 2, height1 / 2, 50);
+  background1(255, 100, 100);
+  textSize(30);
+  text("A1", width1 / 2, height1 / 2);
 }
 
 // N’oubliez pas d’utiliser la version numérotée des fonctions communes :

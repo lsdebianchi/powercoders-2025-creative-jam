@@ -6,8 +6,9 @@ function setup_5() {
 
 function draw_5() {
   // Ceci s’exécute à chaque frame.
-  background5(0, 100, 0);
-  circle(width5 / 2, height5 / 2, 50);
+  background5(0, 255, 0);
+  textSize(30);
+  text("B2", width5 / 2, height5 / 2);
 }
 
 // N’oubliez pas d’utiliser la version numérotée des fonctions communes :

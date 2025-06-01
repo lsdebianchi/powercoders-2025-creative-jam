@@ -6,8 +6,9 @@ function setup_9() {
 
 function draw_9() {
   // Ceci s’exécute à chaque frame.
-  background9(0, 0, 200);
-  circle(width9 / 2, height9 / 2, 50);
+  background9(0, 0, 150);
+  textSize(30);
+  text("C3", width9 / 2, height9 / 2);
 }
 
 // N’oubliez pas d’utiliser la version numérotée des fonctions communes :

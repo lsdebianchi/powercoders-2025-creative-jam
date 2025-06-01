@@ -61,3 +61,9 @@ Chaque fois que le code sur github est mis à jour, un système automatisé le p
 Pour visualizer la version LIVE du code, vous pouvez vous rendre à l'URL suivante :
 
 https://powercoders-2025-creative-jam.fly.dev/
+
+## Structure
+
+N'oubliez pas d'utiliser ces lettres et ces chiffres pour désigner les différentes sections de la mosaïque collaborative :
+
+![grid](./various/arrangement.png)

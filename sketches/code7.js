@@ -6,8 +6,9 @@ function setup_7() {
 
 function draw_7() {
   // Ceci s’exécute à chaque frame.
-  background7(200, 0, 0);
-  circle(width7 / 2, height7 / 2, 50);
+  background7(150, 0, 0);
+  textSize(30);
+  text("A3", width7 / 2, height7 / 2);
 }
 
 // N’oubliez pas d’utiliser la version numérotée des fonctions communes :

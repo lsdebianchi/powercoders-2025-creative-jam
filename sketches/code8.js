@@ -6,8 +6,9 @@ function setup_8() {
 
 function draw_8() {
   // Ceci s’exécute à chaque frame.
-  background8(0, 200, 0);
-  circle(width8 / 2, height8 / 2, 50);
+  background8(0, 150, 0);
+  textSize(30);
+  text("B3", width8 / 2, height8 / 2);
 }
 
 // N’oubliez pas d’utiliser la version numérotée des fonctions communes :

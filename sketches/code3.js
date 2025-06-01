@@ -6,8 +6,9 @@ function setup_3() {
 
 function draw_3() {
   // Ceci s’exécute à chaque frame.
-  background3(200);
-  circle(width3 / 2, height3 / 2, 50);
+  background3(100, 100, 255);
+  textSize(30);
+  text("C1", width3 / 2, height3 / 2);
 }
 
 // N’oubliez pas d’utiliser la version numérotée des fonctions communes :

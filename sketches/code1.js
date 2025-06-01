@@ -1,5 +1,5 @@
 // Variables globales ici.
-var x = 1;
+var x = 0;
 function setup_1() {
   // Ceci s’exécute une fois.
 }
@@ -7,8 +7,8 @@ function setup_1() {
 function draw_1() {
   // Ceci s’exécute à chaque frame.
   background1(0);
-  circle(width1 / 2 + x, height1 / 2, 50);
-  x = x + 1;
+  circle(width1 / 2 + x, height1 / 2 + x, 50);
+  x = x + 5;
 }
 
 // N’oubliez pas d’utiliser la version numérotée des fonctions communes :

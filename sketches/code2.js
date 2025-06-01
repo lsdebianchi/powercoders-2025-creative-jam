@@ -1,5 +1,5 @@
 // Variables globales ici.
-
+// nice here.
 function setup_2() {
   // Ceci s’exécute une fois.
 }

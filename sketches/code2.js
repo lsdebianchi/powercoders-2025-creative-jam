@@ -1,24 +1,22 @@
-// Variables globales ici.
-function setup_2() {
-  // Ceci s’exécute une fois.
+let x = 0;
+
+function setup() {
+  createCanvas(400, 400);
 }
 
-function draw_2() {
-  // Ceci s’exécute à chaque frame.
-  background2(0, 0, 255);
+function draw() {
+  background(0, 0, 0);
 
-  fill(0, 0, 230);
-  circle(200, 200, 400);
-  fill(0, 0, 180);
-  circle(200, 200, 320);
-  fill(0, 0, 150);
-  circle(200, 200, 250);
-  fill(0, 0, 100);
-  circle(200, 200, 200);
-  fill(0, 0, 80);
-  circle(200, 200, 150);
-  fill(0, 0, 50);
-  circle(200, 200, 100);
+  // Move the circle to the right
+  x = x + 2;
+
+  // Reset position when it goes off screen
+  if (x > width) {
+    x = 0;
+  }
+
+  // Draw the circle
+  ellipse(200, x, 150, 150);
 }
 
 // N’oubliez pas d’utiliser la version numérotée des fonctions communes :

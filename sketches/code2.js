@@ -1,8 +1,6 @@
 let x = 0;
 
-function setup_2() {
-  createCanvas(400, 400);
-}
+function setup_2() {}
 
 function draw_2() {
   background2(0, 0, 0);

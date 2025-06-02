@@ -6,9 +6,10 @@ function setup_4() {
 
 function draw_4() {
   // Ceci s’exécute à chaque frame.
-  background4(255, 0, 0);
-  textSize(30);
-  text("TEST 04-Erkan ", width4 / 2, height4 / 2);
+  background4(255, 25, 255);
+  textSize(40);
+  text("ERKAN", width4 / 2, height4 / 2);
+  text("FILIZ", width4 / 2, height4 / 2);
 }
 
 // N’oubliez pas d’utiliser la version numérotée des fonctions communes :

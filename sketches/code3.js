@@ -10,7 +10,7 @@ function draw_3() {
   background3(100, 100, 255);
    y = y + 1;
   rect(100, y, 10, 20)
-  if (y > 100) y = 0
+  if (y > 200) y = 0
   //textSize(30);
   //text("salut", width3 / 2, height3 / 2);
 }

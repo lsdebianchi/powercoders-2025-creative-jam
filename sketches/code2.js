@@ -1,17 +1,17 @@
 let x = 0;
 
-function setup() {
+function setup_2() {
   createCanvas(400, 400);
 }
 
-function draw() {
-  background(0, 0, 0);
+function draw_2() {
+  background2(0, 0, 0);
 
   // Move the circle to the right
   x = x + 2;
 
   // Reset position when it goes off screen
-  if (x > width) {
+  if (x > width2) {
     x = 0;
   }
 

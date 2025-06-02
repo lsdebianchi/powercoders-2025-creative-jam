@@ -1,6 +1,5 @@
 // Variables Globales ici.
 function setup_1() {
-  createCanvas(400, 400);
   // Ceci s’exécute une fois.
 }
 
